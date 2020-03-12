@@ -11,13 +11,13 @@ export default function NavBar(props) {
                     <text>Urheilijan treenipäiväkirja</text>
                 </li>
                 <li>
-                    <Link to="/">Treenit</Link>
+                    <Link to="treenit">Treenit</Link>
                 </li>
                 <li>
-                    <Link to="/">Lepo</Link>
+                    <Link to="lepo">Lepo</Link>
                 </li>
                 <li>
-                    <Link to="/">Ravinto</Link>
+                    <Link to="ravinto">Ravinto</Link>
                 </li>
             </ul>
         </div>
