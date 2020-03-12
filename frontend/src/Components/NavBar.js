@@ -8,7 +8,13 @@ export default function NavBar(props) {
         <div className="nav-bar">
             <ul>
                 <li>
-                    <Link to="/">Home</Link>
+                    <Link to="/">Treenit</Link>
+                </li>
+                <li>
+                    <Link to="/">Lepo</Link>
+                </li>
+                <li>
+                    <Link to="/">Ravinto</Link>
                 </li>
             </ul>
         </div>
