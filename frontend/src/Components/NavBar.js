@@ -8,6 +8,9 @@ export default function NavBar(props) {
         <div className="nav-bar">
             <ul>
                 <li>
+                    <text>Urheilijan treenipäiväkirja</text>
+                </li>
+                <li>
                     <Link to="/">Treenit</Link>
                 </li>
                 <li>
