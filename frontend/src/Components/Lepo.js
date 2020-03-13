@@ -1,7 +1,10 @@
 import React from "react";
 
-export default function(props) {
+import "./Lepo.css"
+
+export default function Lepo(props) {
     return (
+      <div className="levonlaatu">
         <form>
             <label for="levonlaatu">Levon laatu:</label>
             <select id="levonlaatu">
@@ -33,6 +36,7 @@ export default function(props) {
   </select>
 
         </form>
+        </div>
         
     );
 }
